@@ -1,0 +1,169 @@
+.uber-button{
+  background-color: black;
+  border-style: solid;
+  font-size: 15px;
+  color: white;
+  height: 40px;
+  width: 125px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.uber-button:hover{
+  opacity: 0.5;
+}
+
+.amazon{
+  background-color: rgb(255, 216, 20);
+  height: 35px ;
+  width: 160px ;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  
+
+}
+
+.amazon:hover{
+  background-color: rgb(245, 205, 3);
+
+}
+
+.github{
+  background-color: rgb(46, 164, 79);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: box-shadow 0.15s;
+}
+
+.github:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) ;
+}
+
+.started{
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  border-style: solid;
+  background-color: rgb(121,82,179);
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.started:hover{
+  background-color: rgb(102, 0, 255);
+}
+
+.download{
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  border-color :rgb(108,117,125);
+  border-width: 1px;
+  color: rgb(108,117,125);
+  font-weight: bold;
+  transition: background-color 1.5s , color 1.5s;
+}
+
+.download:hover{
+  background-color: rgb(108,117,125);
+  color: white;
+}
+
+
+.Save{
+ 
+  color: rgb(10,102,194);
+  border-color: rgb(10,102,194);
+  border-width: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+  border-radius: 18px;
+  transition: background-color 0.15s , border-width 0.15px;
+}
+
+.Save:hover{
+  background-color: rgb(166, 211, 255);
+  border-width: 2px;
+}
+
+.Apply{
+  border: none;
+  background-color: rgba(10,102,194);
+  color: white;
+  font-weight: bold;
+  border-radius: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: background-color 0.15s;
+}
+
+
+.Apply:hover{
+  background-color: rgb(0, 67, 135) ;
+}
+
+
+.Add{
+  border: none;
+  background-color: rgb(255, 216, 20);
+  border-radius: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.Add:active{
+  opacity: 0.4;
+}
+
+.Buy{
+  border: none;
+  background-color: rgb(255,164,28);
+  border-radius: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+
+}
+
+.Buy:active{
+  opacity: 0.4;
+}
+
+
+.green{
+  color: rgb(0,118 ,0);
+}
+
+.back{
+  color: green;
+}
+
+.back:hover{
+  color: red;
+}
